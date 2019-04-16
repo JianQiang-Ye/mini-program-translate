@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/change/change"
+  ],
+  "window": {
+    "navigationBarTitleText": "我的翻译",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}

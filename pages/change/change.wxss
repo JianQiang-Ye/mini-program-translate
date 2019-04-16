@@ -1,0 +1,10 @@
+/* pages/change/change.wxss */
+.langList{
+  border: 1px solid #eee;
+  padding: 20rpx;
+  color: #666;
+}
+icon{
+  position: absolute;
+  right: 20rpx;
+}

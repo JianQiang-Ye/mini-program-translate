@@ -1,0 +1,23 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 45rpx;
+}
+.log-item {
+  padding: 5rpx 0rpx 5rpx 40rpx;
+}
+.block{
+  border: 1px solid #eee;
+  margin-top: 10rpx;
+  color: #666;
+  background-color: #f0f0f0;
+  position: relative;
+}
+.clearOnly{
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}
+.log-item-index{
+  color: #aaa;
+}

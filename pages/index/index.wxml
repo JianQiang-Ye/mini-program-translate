@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class='content'>
+  <view>
+    <navigator url='../change/change'>翻译成 <text>{{targetLang.chs}}</text></navigator>
+  </view>
+    <textarea placeholder='你好' bindinput='onInput'  bindblur='onconfirm'class="inputText"></textarea>
+  <view class='translate'>
+    <!-- <view class='translate_title'>译文</view> -->
+    <text class='translatedText' selectable="true">{{translatedText}}</text>
+  </view>
+  <view class='copyright'>@copyright: 'yejianqiang'</view>
+</view>

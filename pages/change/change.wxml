@@ -1,0 +1,6 @@
+<view>
+  <view class='langList'wx:for='{{langList}}' wx:key="{{index}}"  wx:for-item="language" data-lang="{{language}}" bindtap='changLang'>
+    {{language.chs}}
+    <icon  wx:if="{{curLang.index === index}}" type=success_no_circle" size="18" />
+  </view>
+</view>

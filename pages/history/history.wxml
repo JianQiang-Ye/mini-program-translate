@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <button class='clear' bindtap='clear' size='mini'>全部清除</button>
+  <view wx:for="{{logs}}" wx:for-item="log" wx:key="{{index}}" class="block">
+    <view class="log-item-index" ><text selectable='true'>{{index + 1}}</text></view>
+    <view class="log-item" ><text selectable='true'>{{log.from}}</text></view>
+    <view class='log-item'><text selectable='true'>{{log.to}}</text></view>
+     <icon type="clear" data-index="{{index}}" size="20" bindtap='clearOnly' class='clearOnly'/>
+  </view>
+</view>

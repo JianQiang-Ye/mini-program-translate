@@ -1,0 +1,41 @@
+/**index.wxss**/
+.content{
+  border: 1px solid #eee;
+  height: 100vh;
+  position: relative;
+}
+.translate{
+  padding: 20rpx;
+  border-top: 2rpx solid #eee; 
+}
+.translate .translate_title{
+  font-size: 32rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+.translate .translatedText{
+  color: #333;
+}
+.inputText{
+  padding: 20rpx
+}
+navigator{
+  font-size:40rpx;
+  color: #666;
+  text-align: center;
+  margin: 40rpx;
+}
+navigator text{
+  color: #3e82f7;
+}
+textarea{
+  border-top:1px solid #eee;
+}
+.copyright{
+  color: #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 28rpx;
+  transform: translateX(-50%)
+}

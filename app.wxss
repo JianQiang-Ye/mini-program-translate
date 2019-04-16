@@ -1,0 +1,6 @@
+/**app.wxss**/
+@import "./pages/assets/iconfront.wxss";
+
+.container {
+  box-sizing: border-box;
+} 
